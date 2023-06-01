@@ -1,10 +1,11 @@
 import React from "react";
 import Constants from "expo-constants";
-import { type AppRouter } from "@ad-just-moment/api";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { httpBatchLink } from "@trpc/client";
 import { createTRPCReact } from "@trpc/react-query";
 import superjson from "superjson";
+
+import { type AppRouter } from "@ad-just-moment/api";
 
 /**
  * A set of typesafe hooks for consuming your API.
@@ -16,7 +17,7 @@ export { type RouterInputs, type RouterOutputs } from "@ad-just-moment/api";
  * Extend this function when going to production by
  * setting the baseUrl to your production API URL.
  */
-const getBaseUrl = () => {
+export const getBaseUrl = () => {
   /**
    * Gets the IP address of your host-machine. If it cannot automatically find it,
    * you'll have to manually set it. NOTE: Port 3000 should work for most but confirm
