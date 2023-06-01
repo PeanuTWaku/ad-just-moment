@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  nginx:
+    container_name: ad-just-moment-video-server
+    image: nginx:1.25.0-bullseye
+    ports:
+      - 8080:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./video:/video
