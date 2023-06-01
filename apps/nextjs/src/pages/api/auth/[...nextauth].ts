@@ -1,5 +1,4 @@
+import { authOptions } from "@ad-just-moment/auth";
 import NextAuth from "next-auth";
-
-import { authOptions } from "@acme/auth";
 
 export default NextAuth(authOptions);

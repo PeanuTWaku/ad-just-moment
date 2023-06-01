@@ -5,6 +5,7 @@
 ## Installation
 
 There are two ways of initializing an app using `create-t3-turbo` starter. You can either use this repository as a template or use Turbo's CLI to init your project:
+
 ```bash
 npx create-turbo@latest -e https://github.com/t3-oss/create-t3-turbo
 ```
@@ -42,7 +43,7 @@ packages
      └─ typesafe db-calls using Prisma
 ```
 
-> In this template, we use `@acme` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@acme/` to something like `@my-company/` / `@project-name/`.
+> In this template, we use `@ad-just-moment` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@ad-just-moment/` to something like `@my-company/` / `@project-name/`.
 
 ## FAQ
 
