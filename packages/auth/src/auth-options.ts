@@ -1,7 +1,8 @@
-import { prisma } from "@ad-just-moment/db";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import { type DefaultSession, type NextAuthOptions } from "next-auth";
 import DiscordProvider from "next-auth/providers/discord";
+
+import { prisma } from "@ad-just-moment/db";
 
 import { env } from "../env.mjs";
 

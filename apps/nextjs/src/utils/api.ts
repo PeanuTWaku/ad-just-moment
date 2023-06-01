@@ -1,7 +1,8 @@
-import type { AppRouter } from "@ad-just-moment/api";
 import { httpBatchLink, loggerLink } from "@trpc/client";
 import { createTRPCNext } from "@trpc/next";
 import superjson from "superjson";
+
+import type { AppRouter } from "@ad-just-moment/api";
 
 const getBaseUrl = () => {
   if (typeof window !== "undefined") return ""; // browser should use relative url
