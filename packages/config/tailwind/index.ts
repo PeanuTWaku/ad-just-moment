@@ -8,7 +8,9 @@ export default {
         snooze: {
           gray: "#838383",
           white: "#FFFFFF",
+          darkgray: "#5F5F5F",
           panel: "#985757",
+          button: "#985757",
         },
       },
     },
